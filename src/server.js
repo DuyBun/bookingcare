@@ -17,7 +17,7 @@ viewEngine(app);
 initWebRoutes(app);
 
 //test connection
-connectDB();
+// connectDB();
 
 let port = process.env.PORT || 8080;
 app.listen(port, () => {
